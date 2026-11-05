@@ -1,0 +1,14 @@
+{
+  "name": "squeek-wheel-arena",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Race or bet against Squeektoshi's live wheel, settled on every real Squeekchain round.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "verify:dist": "node scripts/verify-dist.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test tests/",
+    "typecheck": "npx --yes -p typescript@5 tsc --project tsconfig.json"
+  }
+}

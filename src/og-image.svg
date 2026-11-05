@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a1a20"/>
+  <circle cx="900" cy="315" r="230" fill="none" stroke="#3a3a44" stroke-width="8"/>
+  <g stroke="#3a3a44" stroke-width="8">
+    <line x1="900" y1="85" x2="900" y2="545"/>
+    <line x1="670" y1="315" x2="1130" y2="315"/>
+    <line x1="737" y1="152" x2="1063" y2="478"/>
+    <line x1="737" y1="478" x2="1063" y2="152"/>
+  </g>
+  <g fill="#5b7cfa">
+    <rect x="889" y="74" width="22" height="22"/>
+    <rect x="889" y="534" width="22" height="22"/>
+    <rect x="659" y="304" width="22" height="22"/>
+    <rect x="1119" y="304" width="22" height="22"/>
+    <rect x="726" y="141" width="22" height="22"/>
+    <rect x="1052" y="141" width="22" height="22"/>
+    <rect x="726" y="467" width="22" height="22"/>
+    <rect x="1052" y="467" width="22" height="22"/>
+  </g>
+  <g transform="translate(900 520) scale(3)">
+    <ellipse cx="-25" cy="-20" rx="4" ry="3" fill="#f6c9a0"/>
+    <ellipse cx="-3" cy="-19" rx="24" ry="16" fill="#fff1dc"/>
+    <ellipse cx="-9" cy="-25" rx="14" ry="9" fill="#ee9a45"/>
+    <ellipse cx="11" cy="-38" rx="5" ry="5.5" fill="#f4a78f"/>
+    <ellipse cx="18" cy="-25" rx="14" ry="13" fill="#fff1dc"/>
+    <ellipse cx="21" cy="-19" rx="8" ry="6.5" fill="#ffd9b0"/>
+    <ellipse cx="23" cy="-28" rx="2.5" ry="2.8" fill="#17171c"/>
+    <ellipse cx="31.5" cy="-24" rx="1.8" ry="1.5" fill="#e4735f"/>
+    <ellipse cx="-14" cy="-3" rx="6" ry="3.5" fill="#f6c9a0"/>
+    <ellipse cx="10" cy="-3" rx="6" ry="3.5" fill="#f6c9a0"/>
+  </g>
+  <text x="72" y="270" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="300" font-size="96" fill="#f2f2f4">Outrun a real</text>
+  <text x="72" y="366" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="300" font-size="96" fill="#f2f2f4">hamster.</text>
+  <text x="72" y="436" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="600" font-size="40" fill="#f2c230">Squeek Wheel Arena</text>
+</svg>

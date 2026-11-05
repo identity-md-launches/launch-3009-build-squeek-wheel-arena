@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Squeek Wheel Arena</title>
+    <meta name="description" content="Race or bet against Squeektoshi, a real hamster on a live wheel. Every outcome settles on the real round from Squeekchain's public API." />
+    <meta name="theme-color" content="#1a1a20" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Squeek Wheel Arena" />
+    <meta property="og:description" content="Outrun a real hamster. Race or bet against Squeektoshi's live wheel, scored on every real round." />
+    <meta property="og:image" content="./og-image.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;600&family=IBM+Plex+Mono:wght@400&family=Quicksand:wght@600&display=swap" />
+    <link rel="preconnect" href="https://api.squeekchain.com" crossorigin />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#/">
+        <svg viewBox="0 0 22 22" aria-hidden="true">
+          <rect x="0" y="6" width="6" height="6" rx="1" />
+          <rect x="8" y="0" width="6" height="6" rx="1" />
+          <rect x="8" y="8" width="6" height="6" rx="1" />
+          <rect x="8" y="16" width="6" height="6" rx="1" />
+          <rect x="16" y="8" width="6" height="6" rx="1" />
+        </svg>
+        <span>Squeek Wheel Arena</span>
+      </a>
+      <a class="points-link mono" id="header-points" href="#/board">0 points</a>
+    </header>
+    <p class="sr-only" id="notice-live" role="status"></p>
+    <div class="notice" id="notice" hidden>
+      <p class="note notice-text" id="notice-text"></p>
+      <button class="btn btn-quiet" id="notice-close" type="button">Dismiss</button>
+    </div>
+    <main id="main" tabindex="-1">
+      <noscript>
+        <p class="lede">Squeek Wheel Arena is a live game, so it needs JavaScript to read the wheel and run the race.</p>
+      </noscript>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-nav" aria-label="Site">
+        <a href="#/">Menu</a>
+        <a href="#/race">Race</a>
+        <a href="#/predict">Predict</a>
+        <a href="#/board">Leaderboard</a>
+      </nav>
+      <p class="note">Live data from <a href="https://docs.squeekchain.com/developers/api.md">Squeekchain’s public API</a>. Scores stay in this browser.</p>
+    </footer>
+  </body>
+</html>
